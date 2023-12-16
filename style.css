@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+.log{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 5%;
+    padding-top: 10px;
+    text-wrap: wrap;
+}
+.navbar ul{
+    float: right;
+    margin-right: 120px;
+    padding-left: 835px;
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+.navbar li a{
+    font-size: 12px;
+    text-transform: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+.log img{
+    width: 98px;
+    height: 62px;
+    /* margin-left: -340px; */
+}
+
+.display-text{
+    background-image:url(img/Rectangle\ 4.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 12;
+
+}
+.display-text h4 {
+    padding-top: 286px;
+    margin-left: 100px;
+    font-size: 3rem;
+    color: white;
+}
+.dip-lorem p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(1, 1, 1);
+}
+.dip-img img{
+    position: absolute;
+    width: 635px;
+    height: auto;
+    margin-left: 1000px;
+    margin-top: -430px;
+    opacity: 0.8;
+}
+.btn button{
+    margin-left: 100px;
+    margin-top: 25px;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 20px;
+    background-color: hsl(53, 56%, 27%);
+    border: none;
+    
+}
+
+/* about us  */
+
+.about-us{
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 1000px;
+    
+}
+.about-us img{
+    position: absolute;
+    float: right;
+    width: 530px;
+    height: auto;
+    left: 960px;
+    top: 120px; 
+    bottom: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.about-us h3{
+    color: white;
+    padding-left: 100px;
+    padding-top: 175px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.about-lorem{
+    color: white;
+    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.about-us a{
+    position: absolute;
+    color: #D0BCFF;
+    padding-left: 100px;
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+
+/* dream destination  */
+
+.dream-des{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.dream-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 30px; */
+    /* padding: 0px 100px; */
+    margin-bottom: 120px;
+}
+.dream-des h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+.card{
+    position: relative;
+    border-radius: 8px;
+    padding-top: 65px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card img{
+    width: 435px;
+    height: auto;
+    border-radius: 5px;
+}
+.card-content{
+    text-align: center;
+    color:black;
+
+}
+.fav{
+    position: absolute;
+    right:0px;
+    padding: 8px;
+    background-color: rgb(5, 5, 5);
+    color: red;
+    border-radius: 5px;
+}
+.card-content ul{
+    list-style: none;
+    margin-top: 2px;
+}
+.card-content ul li{
+    display: inline-block;
+}
+
+.bl{
+    color: black !important;
+}
+.fa-star{
+    color: orange;
+}
+.romania{
+    color: white;
+}
+.brazil{
+    color: white ;
+}
+
+/* self planning make you perfect  */
+
+.planning{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.planning-img1{
+    padding-bottom: 50px;
+    padding-left: 133px;
+    flex: 1;
+}
+.planning-content h3{
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    padding-left: 30px;
+}
+
+.planning-content h4{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.planning-content p{
+    padding-left: 30px;
+    display: block;
+    flex-basis: 100px;
+    line-height: 20px;
+    padding-top: 10px;
+    max-width: 900px;
+    padding-right: 200px;
+}
+
+.planning-img2{
+    padding-top: 66px;
+    margin-left: -70px;
+    flex: -1;
+}
+
+input{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: 0.5px solid;
+    border-radius: 20px;
+}
+
+/* subscription plans  */
+
+.sub-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.sub-text{
+    padding-top: 120px;
+}
+.sub-text h3{
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+.sub-text p{
+    padding-top: 10px;
+    text-align: center;
+}
+.sub-card-container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+.sub-card{
+    width: 427px;
+    height: 412px;
+    background-image: linear-gradient(0deg,black,rgb(116, 116, 116));
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    
+}
+
+.card-top{
+    display:flex;
+    padding-left: 74px;
+    padding-top: 40px;
+
+}
+.card-top p{
+    max-width: 2px;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 34px;
+    
+}
+.card-top img{
+    width: 60px;
+    height: 60px;
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+.card-middle{
+    padding-left: 8px;
+}
+
+.card-middle ul{
+    margin-top: 20px;
+    margin-left: 65px;
+    list-style: none;
+    
+}
+.card-middle ul li{
+    text-decoration: none;
+    padding-top: 12px;
+}
+.card-middle ul li img{
+    float: right;
+    padding-right: 92px;
+}
+.card-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.card-bottom input{
+    padding: 10px 30px;
+}
+
+/* how it works  */
+
+.how-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.how-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.how-text h4{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.how-card-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+
+.how-card h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.how-card p{
+    color: white;
+    padding-top: 5px;
+}
+
+.how-card img{
+    padding-left: 128px;
+}
+
+/* customer review  */
+
+
+.customer-container{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.customer-text h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 120px;
+}
+.customer-card-container{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.customer-card{
+    width: 387px;
+    height: 340px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.customer-card img{
+    float: inline-end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.customer-card p{
+    padding-top: 83px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+}
+
+.card-middle{
+    padding-top: 10px;
+    
+}
+
+.card-img img{
+    float: inline-start;
+    padding-left: 0px;
+    
+}
+.card-img-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.card-img-text img{
+    float: left;
+}
+
+
+/* footer section  */
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding-bottom: 120px;
+}
+.footer_top {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.quick_links ul{
+    list-style: none;
+}
+
+.quick_links ul li{
+    margin: 12px 0px;
+}
+.qick_text{
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer_icon{
+    margin-right: 8px;
+}
+
+.get_social{
+    margin-top: 20px;
+}
+
+/* end section  */
+
+.end_section{
+    width: 100%;
+    /* height: auto; */
+    background-color: white;
+
+}
+
+.end_text{
+    text-align: center;
+    margin: 40px 0px;
+    
+}
